@@ -1,4 +1,4 @@
-var User = /** @class */ (function () {
+var User = (function () {
     function User(_name) {
         this.name = _name;
     }
@@ -7,3 +7,4 @@ var User = /** @class */ (function () {
 var tom = new User("Том");
 var header = this.document.getElementById("header");
 header.innerHTML = "Привет " + tom.name;
+//# sourceMappingURL=app.js.map
